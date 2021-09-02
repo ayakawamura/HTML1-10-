@@ -9,7 +9,7 @@ header {
   background-color: #ff9a4b;
 }
 
-.contents {
+main {
   width: 960px;
   margin: 50px auto;
   display: flex;
@@ -65,4 +65,23 @@ header {
 footer {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+
+@media screen and (max-width:768px){
+
+main{
+  display: block;
+  width: 100%;
+  }
+
+.contents-box{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contents-box:first-child,
+.contents-box:nth-child(2) {
+  margin-bottom: 20px;
+  margin-right: auto;
 }
